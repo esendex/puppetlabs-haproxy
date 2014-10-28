@@ -73,7 +73,7 @@ define haproxy::frontend (
   $ipaddress        = [$::ipaddress],
   $mode             = 'tcp',
   $collect_exported = false,
-  $global_bind_options,
+  #$global_bind_options,
   $options          = {
     'option'  => [
       'tcplog',
